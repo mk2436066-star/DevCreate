@@ -29,7 +29,7 @@ steps:
       gradle-version: '8.9'
 
   - name: Extract Android project
-    run: unzip DevCreate_Android_CloudBuild.zip -d source
+    run: unzip DevCreate.apk-build.zip -d source
 
   - name: Build APK
     working-directory: source/DevCreateAndroid
